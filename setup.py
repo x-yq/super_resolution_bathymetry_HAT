@@ -1,0 +1,16 @@
+import argparse
+
+parser = argparse.ArgumentParser( description="Super resolution")
+parser.add_argument("--img_output_folder", type=str, default="", help="Folder to store the output images")
+parser.add_argument("--epochs", type=int, default=15, help="epochs to train", required=False)
+parser.add_argument("--batch_size", type=int, default=1, help="batch size", required=False)
+parser.add_argument("--lr", type=int, default=1e-4, help="learning rate", required=False)
+parser.add_argument("--best_model_path", type=str, default='', help="Folder to store the best model")
+parser.add_argument("--pretrained_weights_path", type=str, default='', help='Path to the pretrained weights')
+parser.add_argument("--target_w", type=int, default=32, help='target width')
+parser.add_argument("--target_h", type=int, default=32, help='target height')
+parser.add_argument("--upscale", type=int, default=2, help='upscale')
+parser.add_argument("--interpolate_mode", type=str, default='bilinear', help='intepolate mode')
+parser.add_argument("--task", type=str, default='', help='task')
+parser.add_argument("--train_combine_dataset", type=int,  default=1, help='if train on seperate dataset')
+parser.add_argument("--fine_tune", type=int, default=0, help='if fine tune')

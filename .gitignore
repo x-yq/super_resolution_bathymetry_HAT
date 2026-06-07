@@ -1,0 +1,8 @@
+datasets/data/
+__pycache__/
+.DS_Store
+.tif
+.pth
+images/
+weights/
+configs/norm_params/

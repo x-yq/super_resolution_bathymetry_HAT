@@ -1,0 +1,29 @@
+# General settings
+mode: train
+device: cuda
+random_seed: 0
+wandb_flag: false
+wandb_api_key: null
+wandb_project_name: cv4rs_training
+wandb_group_name: cv4rs
+
+# Dataset
+n_train: 24
+n_val: 8
+n_test: 8
+batch_size: 8
+num_workers: 4
+
+# Model
+architecture: SwinIR
+pretrained: false
+
+# Training
+num_epochs: 1
+optimizer: Adam
+learning_rate: 0.001
+weight_decay: 0.0001
+lr_scheduler_step: 10
+lr_scheduler_gamma: 0.1
+
+
