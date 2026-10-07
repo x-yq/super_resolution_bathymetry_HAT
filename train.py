@@ -319,7 +319,6 @@ def main(args):
         configs = [{
             "dataset_name": "MagicBathyNet",
             "root_dir": "./datasets/data/",
-            #"root_dir": "/faststorage/cv4rs_2024_superpixel/super-resolution-of-ocean-imagery-for-improving-bathymetry-prediction-and-pixel-based-classification/datasets/data",
             "transform": transform,
             "target_transform":target_transform,
             "batch_size": args.batch_size,
@@ -332,7 +331,6 @@ def main(args):
         configs.append ({
             "dataset_name": "MagicBathyNet",
             "root_dir": "./datasets/data/",
-            #"root_dir": "/faststorage/cv4rs_2024_superpixel/super-resolution-of-ocean-imagery-for-improving-bathymetry-prediction-and-pixel-based-classification/datasets/data",
             "transform": transform,
             "target_transform":target_transform,
             "batch_size": args.batch_size,
@@ -345,7 +343,6 @@ def main(args):
         configs.append ({
             "dataset_name": "MagicBathyNet",
             "root_dir": "./datasets/data/",
-            #"root_dir": "/faststorage/cv4rs_2024_superpixel/super-resolution-of-ocean-imagery-for-improving-bathymetry-prediction-and-pixel-based-classification/datasets/data",
             "transform": transform,
             "target_transform":target_transform,
             "batch_size": args.batch_size,

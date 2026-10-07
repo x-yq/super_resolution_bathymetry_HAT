@@ -1,3 +1,18 @@
+"""
+HAT architecture used for satellite image super-resolution.
+
+This implementation is based on:
+
+X. Chen, X. Wang, J. Zhou, Y. Qiao, and C. Dong,
+"Activating More Pixels in Image Super-Resolution Transformer",
+CVPR 2023.
+
+The HAT architecture is not claimed as original work by the
+portfolio authors. Project-specific training, adaptation, and
+evaluation were conducted by:
+    Yeqiao Xu
+"""
+
 import math
 import torch
 import torch.nn as nn

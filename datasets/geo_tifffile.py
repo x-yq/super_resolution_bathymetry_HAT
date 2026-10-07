@@ -1,3 +1,10 @@
+"""
+GeoTIFF I/O utilities for the project.
+
+This component was jointly developed by:
+    Niklas Schmolenski
+"""
+
 from osgeo import gdal
 import numpy as np
 

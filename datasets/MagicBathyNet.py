@@ -1,3 +1,12 @@
+"""
+Dataset loader utilities for the project.
+
+This component was jointly developed by:
+    Maximilian Kromer
+    Yeqiao Xu
+    Niklas Schmolenski
+"""
+
 import os
 import tifffile
 import numpy as np
